@@ -42,16 +42,23 @@ Godot엔진도 Unreal과 같은 세팅을 사용하면 좋을 것 같습니다.
 
 
 예시)
+
 ![image](https://github.com/user-attachments/assets/bf4bd372-1c10-4343-a367-97fcaec7cdf8)
+
 해당 이미지에 알파값이 1인 경우는 모든 채널이 잘 섞여 보인 듯 하지만,
 
 ![image](https://github.com/user-attachments/assets/54222f17-52a7-4ab6-8844-f48dd5ec8817)
+
 알파값을 0으로 Invert해버리면 결과물이 투명해 보이지 않습니다.
 
 하지만, 해당 이미지를 패킹해서 유니티로 가져간다면
+
 ![image](https://github.com/user-attachments/assets/b070ce56-d8c3-432d-823a-1c63216f05f6)
+
 ![image](https://github.com/user-attachments/assets/71bac4f1-44d6-4696-8160-cbd190841352)
+
 ![image](https://github.com/user-attachments/assets/ed55e3aa-9ff9-4539-b98c-def47cc5b3ea)
+
 ![image](https://github.com/user-attachments/assets/dd4d1788-a963-4907-b629-b8e76e6026af)
 
 모든 채널의 이미지가 살아있는 것을 볼 수 있습니다
