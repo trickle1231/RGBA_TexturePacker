@@ -56,7 +56,7 @@ In Unity, the **Smoothness Map** is automatically derived by inverting the Rough
 
 ---
 
-## 📖 Examples
+## 📖 Examples for Transperancy Test
 
 ### When Alpha = 1
 When the alpha value of the image is **1**, all channels blend seamlessly:
@@ -155,7 +155,7 @@ Godot엔진도 Unreal과 같은 세팅을 사용하면 좋을 것 같습니다.
 
 
 
-예시)
+투명도에 따른 영향 테스트)
 
 ![image](https://github.com/user-attachments/assets/bf4bd372-1c10-4343-a367-97fcaec7cdf8)
 
