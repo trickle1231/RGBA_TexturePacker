@@ -1,3 +1,8 @@
+![image](https://github.com/user-attachments/assets/3ff8922c-f570-435e-b1cd-a93bc6a31f5c)
+
+
+
+
 # Texture Packing Tool - English Manual
 
 This tool combines multiple texture maps into a single texture for use in game engines such as **Unity**, **Unreal Engine**, and **Godot**. It supports packing the following maps:
