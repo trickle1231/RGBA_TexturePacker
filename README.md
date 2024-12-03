@@ -87,6 +87,11 @@ The **"Alpha is Transparency"** setting **must not be enabled**. If enabled, the
 
 
 
+
+
+
+
+
 # RGBA_TexturePacker -- KO
 TexturePacking Tool
 
