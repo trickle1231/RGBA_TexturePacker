@@ -1,3 +1,92 @@
+# Texture Packing Tool
+
+This tool combines multiple texture maps into a single texture for use in game engines such as **Unity**, **Unreal Engine**, and **Godot**. It supports packing the following maps:
+
+- **Metallic Map**
+- **Roughness Map**
+- **Ambient Occlusion (AO) Map**
+- **Detail Mask Map**
+
+## 🎨 Channel Configurations
+
+### Unity (URP LitShader and HDRP Mask Maps)
+- **R Channel**: Metallic Map  
+- **G Channel**: AO Map  
+- **B Channel**: Detail Mask  
+- **A Channel**: Smoothness Map  
+
+In Unity, the **Smoothness Map** is automatically derived by inverting the Roughness Map.
+
+---
+
+### Unreal Engine & Godot
+- **R Channel**: AO  
+- **G Channel**: Roughness  
+- **B Channel**: Metallic  
+
+> **Note**: The included Unreal preset may not be perfect but should work well in most cases. Godot uses the same configuration as Unreal Engine.
+
+---
+
+## ⚠️ Important Notes
+
+1. **Avoid Using PNG Files with Transparency**  
+   - Unexpected results may occur when using PNG files with transparency as source textures.
+
+2. **Use Grayscale Data for Non-RGB Channels**  
+   - Channels not assigned to RGB textures should only contain grayscale data.
+
+3. **3D View as Reference Only**  
+   - The 3D preview may not exactly reflect the result in your game engine. Use it as a reference only.
+
+4. **Short Loading Time**  
+   - Packing textures may take a few seconds, depending on the complexity of the input files.
+
+---
+
+## 🛠️ Key Features
+
+- Even if the packed texture appears transparent, **all channel data remains intact**.
+- While Photoshop might not display channel information for PNG files, game engines like Unity, Unreal, and Godot will correctly separate and render the **R, G, B, and A channels**.
+
+---
+
+## 📖 Examples
+
+### When Alpha = 1
+When the alpha value of the image is **1**, all channels blend seamlessly:
+
+![image](https://github.com/user-attachments/assets/bf4bd372-1c10-4343-a367-97fcaec7cdf8)
+
+---
+
+### When Alpha = 0
+If the alpha value is inverted to **0**, the result may not appear transparent:
+
+![image](https://github.com/user-attachments/assets/54222f17-52a7-4ab6-8844-f48dd5ec8817)
+
+![image](https://github.com/user-attachments/assets/c123c630-3b97-4345-bac0-43cf4a9cb8a9)
+
+
+However, if you pack the image and import it into Unity, you will see that the images in all channels remain intact.
+
+
+
+---
+
+## Unity-Specific Settings
+
+### "Alpha is Transparency" Setting
+The **"Alpha is Transparency"** setting **must not be enabled**. If enabled, the result will look as follows:
+
+![Example: Alpha is Transparency Enabled](path/to/alpha_transparency_enabled.png)
+
+> **All channels will appear transparent if this setting is turned on.**
+
+---
+
+
+
 # RGBA_TexturePacker
 TexturePacking Tool
 
@@ -66,13 +155,8 @@ Godot엔진도 Unreal과 같은 세팅을 사용하면 좋을 것 같습니다.
 
 하지만, 해당 이미지를 패킹해서 유니티로 가져간다면
 
-![image](https://github.com/user-attachments/assets/b070ce56-d8c3-432d-823a-1c63216f05f6)
+![image](https://github.com/user-attachments/assets/c123c630-3b97-4345-bac0-43cf4a9cb8a9)
 
-![image](https://github.com/user-attachments/assets/71bac4f1-44d6-4696-8160-cbd190841352)
-
-![image](https://github.com/user-attachments/assets/ed55e3aa-9ff9-4539-b98c-def47cc5b3ea)
-
-![image](https://github.com/user-attachments/assets/dd4d1788-a963-4907-b629-b8e76e6026af)
 
 모든 채널의 이미지가 살아있는 것을 볼 수 있습니다
 
