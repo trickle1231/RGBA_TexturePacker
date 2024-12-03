@@ -79,9 +79,10 @@ However, if you pack the image and import it into Unity, you will see that the i
 ### "Alpha is Transparency" Setting
 The **"Alpha is Transparency"** setting **must not be enabled**. If enabled, the result will look as follows:
 
-![Example: Alpha is Transparency Enabled](path/to/alpha_transparency_enabled.png)
+![image](https://github.com/user-attachments/assets/b42af2e9-08f1-47a2-8fcf-9e5142ab138c)
 
 > **All channels will appear transparent if this setting is turned on.**
+![image](https://github.com/user-attachments/assets/5d19a6ff-1538-4b90-97bd-5d999e1bb38a)
 
 ---
 
