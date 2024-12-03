@@ -1,4 +1,4 @@
-# Texture Packing Tool -- EN
+# Texture Packing Tool - English Manual
 
 This tool combines multiple texture maps into a single texture for use in game engines such as **Unity**, **Unreal Engine**, and **Godot**. It supports packing the following maps:
 
@@ -92,7 +92,7 @@ The **"Alpha is Transparency"** setting **must not be enabled**. If enabled, the
 
 
 
-# RGBA_TexturePacker -- KO
+# RGBA_TexturePacker -- 한국어 설명서
 TexturePacking Tool
 
 
