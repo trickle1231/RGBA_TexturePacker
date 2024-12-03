@@ -63,6 +63,11 @@ Godot엔진도 Unreal과 같은 세팅을 사용하면 좋을 것 같습니다.
 
 모든 채널의 이미지가 살아있는 것을 볼 수 있습니다
 
+![image](https://github.com/user-attachments/assets/b42af2e9-08f1-47a2-8fcf-9e5142ab138c)
 
+해당 텍스쳐의 Alpha is Transperency 설정은 절대 켜선 안 됩니다.
+만약에 해당 설정은 킨다면
 
+![image](https://github.com/user-attachments/assets/5d19a6ff-1538-4b90-97bd-5d999e1bb38a)
 
+이처럼 모든 정보가 투명하게 보이게 됩니다.
