@@ -1,11 +1,7 @@
-How to Download: Please refer to the release link.
-
-
-다운로드 방법 : 릴리즈 링크를 참고하세요
-
 
 ![Packer2](https://github.com/user-attachments/assets/b7f7c4b2-cf53-49ee-a157-1397fb06bafb)
-![image](https://github.com/user-attachments/assets/3ff8922c-f570-435e-b1cd-a93bc6a31f5c)
+![image](https://github.com/user-attachments/assets/7b4da358-fe85-4c5d-825f-2c765b017d81)
+
 
 
 
@@ -69,14 +65,16 @@ In Unity, the **Smoothness Map** is automatically derived by inverting the Rough
 ### When Alpha = 1
 When the alpha value of the image is **1**, all channels blend seamlessly:
 
-![image](https://github.com/user-attachments/assets/bf4bd372-1c10-4343-a367-97fcaec7cdf8)
+![image](https://github.com/user-attachments/assets/a6148d58-fb34-45de-a3f3-3675fc4847bb)
+
 
 ---
 
 ### When Alpha = 0
 If the alpha value is inverted to **0**, the result may not appear transparent:
 
-![image](https://github.com/user-attachments/assets/54222f17-52a7-4ab6-8844-f48dd5ec8817)
+![image](https://github.com/user-attachments/assets/bffe3839-6b39-4d4a-b581-bdf4ae62bebc)
+
 
 ![image](https://github.com/user-attachments/assets/c123c630-3b97-4345-bac0-43cf4a9cb8a9)
 
@@ -165,11 +163,13 @@ Godot엔진도 Unreal과 같은 세팅을 사용하면 좋을 것 같습니다.
 
 투명도에 따른 영향 테스트)
 
-![image](https://github.com/user-attachments/assets/bf4bd372-1c10-4343-a367-97fcaec7cdf8)
+![image](https://github.com/user-attachments/assets/ee9e5c60-9630-401d-95f9-54a6177c2e8a)
+
 
 해당 이미지에 알파값이 1인 경우는 모든 채널이 잘 섞여 보인 듯 하지만,
 
-![image](https://github.com/user-attachments/assets/54222f17-52a7-4ab6-8844-f48dd5ec8817)
+![image](https://github.com/user-attachments/assets/b4745b3a-984a-435f-b177-85e934ed4c16)
+
 
 알파값을 0으로 Invert해버리면 결과물이 투명해 보이지 않습니다.
 
