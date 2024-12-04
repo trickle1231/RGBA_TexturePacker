@@ -172,7 +172,8 @@ Godot엔진도 Unreal과 같은 세팅을 사용하면 좋을 것 같습니다.
 ![image](https://github.com/user-attachments/assets/c123c630-3b97-4345-bac0-43cf4a9cb8a9)
 
 
-모든 채널의 이미지가 살아있는 것을 볼 수 있습니다
+모든 채널의 이미지가 살아있는 것을 볼 수 있습니다.
+참고로 이는 포토샵에서는 확인할 수 없습니다.
 
 
 ![image](https://github.com/user-attachments/assets/b42af2e9-08f1-47a2-8fcf-9e5142ab138c)
