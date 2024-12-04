@@ -5,6 +5,7 @@
 
 
 # Texture Packing Tool - English Manual
+아래 한국어 설명서도 있습니다.
 
 This tool combines multiple texture maps into a single texture for use in game engines such as **Unity**, **Unreal Engine**, and **Godot**. It supports packing the following maps:
 
