@@ -1,7 +1,7 @@
-How to Download: Please refer to the release link on the right.
+How to Download: Please refer to the release link.
 
 
-다운로드 방법 : 우측 릴리즈 링크를 참고하세요
+다운로드 방법 : 릴리즈 링크를 참고하세요
 
 
 ![Packer2](https://github.com/user-attachments/assets/b7f7c4b2-cf53-49ee-a157-1397fb06bafb)
